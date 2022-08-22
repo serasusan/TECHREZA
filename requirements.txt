@@ -1,0 +1,5 @@
+Microsoft lobe
+base64
+requests
+OpenCV
+pyttsx3
