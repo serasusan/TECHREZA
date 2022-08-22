@@ -112,28 +112,24 @@ while hl=="1":
                     engine.say("you chose box two")
                     engine.runAndWait()
                     t=2
-                    y=2
                     break
             for k in range(0,len(three)):   
                 if three[k] in text:
                     engine.say("you chose box three")
                     engine.runAndWait()
                     t=2
-                    y=3
                     break
             for k in range(0,len(four)):
                 if four[k] in text:
                     engine.say("you chose box four")
                     engine.runAndWait()
                     t=2
-                    y=4
                     break
             for k in range(0,len(five)):
                 if five[k] in text:
                     engine.say("you chose box five")
                     engine.runAndWait()
                     t=2
-                    y=5
                     break
             
                 
@@ -157,22 +153,19 @@ while hl=="1":
 
 
     # Save string of image file path below
-    img_filepath = "C:\\NAMRITHA CSE\\PROJECTS\\"+img_name
+    img_filepath = "C:\\PROJECTS\\"+img_name #give the location of the folder in which the photo has to be saved
 
     # Create base64 encoded string
     with open(img_filepath, "rb") as f:
         image_string = base64.b64encode(f.read()).decode("utf-8")
 
+    #LOBE CODE
     # Get response from POST request
     response = requests.post(url="http://localhost:38101/v1/predict/bf372681-9a87-4062-aaa8-cafad892f96f",json={"image": image_string},)
     data = response.json()
 
     top_prediction = data["predictions"][0]
 
-
-    #engine.say("The object is : \t{}".format(top_prediction["label"]))
-
-    engine.runAndWait()
 
 
     #DEFINITIONS
