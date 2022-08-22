@@ -16,7 +16,7 @@ If the answer is wrong, the next clue will be read
 If the answer is correct the player wins the game.
 
 
-BEHIND THE SCREEN
+BEHIND THE SCREEN<br>
 Microsoft LOBE has been used to train the objects required for the game.
 It should be kept open during the execution of the code.
 
