@@ -2,7 +2,7 @@
 <head>
 </head>
 <body>
-#TECHREZA
+# TECHREZA
 Object Detection Game - OpenCV & Voice Automation
 
 GAME
