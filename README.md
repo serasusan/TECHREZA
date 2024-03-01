@@ -2,8 +2,8 @@
 <head>
 </head>
 <body>
-TECHREZA
-Object Detection Game - OpenCV & Voice Automation
+## TECHREZA
+### Object Detection Game - OpenCV & Voice Automation
 
 GAME
 This is a simple guessing game. 
