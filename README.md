@@ -2,10 +2,10 @@
 <head>
 </head>
 <body>
-## TECHREZA
-### Object Detection Game - OpenCV & Voice Automation
+<h1> TECHREZA</h1>
+<h3> Object Detection Game - OpenCV & Voice Automation</h3>
 
-GAME
+<h3>Game</h3>
 This is a simple guessing game. 
 There are 5 boxes each containing a different object. 
 The player gets 5 clues and 5 chances to guess the object.
